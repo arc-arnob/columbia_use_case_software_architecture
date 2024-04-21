@@ -1,18 +1,5 @@
----
-type: article
-title: "BlazeGuard: A Wildfire Resource Management System"
-date: 2024-03-04T14:23:59Z
-draft: false
----
-
-
-
-<!--
-
-https://edition.cnn.com/2024/01/25/americas/colombia-disaster-wildfires-el-nino-intl-latam/index.html
-https://es.mongabay.com/2024/01/gobierno-colombiano-declara-situacion-de-desastre-y-calamidad-en-el-pais-ante-el-grave-impacto-de-incendios-forestales/
--->
-
+# BlazeGuard: Architecture for Firefighting Resource Management"
+## Defining the problem
 ## 1. Problem Description
 In January of this year, Colombia experienced numerous wildfires[^1MRIOS], burning away tens of thousands hectares of wilderness[^2_r1]. Even though the Firefighting Corps of the Nation are well trained in order to combat these emergencies, there are still challenges that they need to overcome to do so more efficiently. In particular, we want to focus on two pressing issues that hinder the corps in their efforts for the specific case of Colombia:
 
@@ -228,18 +215,13 @@ The Domain Model below captures the essential entities, attributes, relationship
 
 We have divided our roadmap into 4 phases as illustrated below, we intend to follow this plan for our system. This is partly inspired by [aim42's](https://www.aim42.org/) software improvement phases. We understand and evaluate the system, then implement the solution and further improve and optimize the system. This iterative cycle aligns stakeholder requirements, aids developers in strategic planning, and guides project development to ensure adaptability to change.
 
-<!--
-![RoadMap](https://gitlab.ewi.tudelft.nl/in4315/2023-2024/desosa2024.gitlab.io/-/raw/group-3/content/projects/03-wildfires/images/roadmap.png "RoadMap")
--->
+<!-- ![RoadMap](https://gitlab.ewi.tudelft.nl/in4315/2023-2024/desosa2024.gitlab.io/-/raw/group-3/content/projects/03-wildfires/images/roadmap.png "RoadMap") -->
+
 {{<image file="roadmap.jpg" caption="Roadmap">}}
 ## 4. Pricing Model
 BlazeGuard's pricing model is structured around our mission to safeguarding Colombia's wilderness and communities from the destructive force of wildfires. Recognizing the essential nature of our mission, we prioritize sustainability over profit. Hence, we propose a Recurring Revenue Model designed to ensure the continuous support and enhancement of our wildfire detection and management system. Under this model, we request an annual payment from the the government or beneficiaries, tailored to cover the costs of maintaining the software and providing ongoing support.
----
-type: article
-title: "BlazeGuard: Architecture for Firefighting Resource Management"
-date: 2024-03-15T14:23:59Z
-draft: false
----
+
+# Architecting the Solution
 
 In order to aid Colombia’s firefighters in containing the increasing amount of wildfires that occur due to 'El Niño' phenomenon [^1], we designed BlazeGuard, a wildfire alert and resource management system. In this document we will explain the process of designing BlazeGuard, by explaining its architecture through different views of the system, important architectural decisions made, and a Proof of Concept to show the strengths of the decisions made for the system.
 
