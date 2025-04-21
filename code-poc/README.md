@@ -1,11 +1,5 @@
-# Team 3 - Blazeguard: Wildlife Fire Resource Management System
+Blazeguard: Wildlife Fire Resource Management System
 
-
-Arnob Chowdhury
-A.chowdhury-2@student.tudelft.nl
-
-Mitali Patil
-m.s.patil@student.tudelft.nl
 
 
 ## Motivation for Choosing the Project:
